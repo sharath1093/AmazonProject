@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41705" started-at="2019-03-06T16:11:57Z" finished-at="2019-03-06T16:12:39Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="21640" started-at="2019-03-06T16:11:57Z" finished-at="2019-03-06T16:12:19Z">
+      <class name="RealPackage.RealProject.Testcase1">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:RealPackage.RealProject.Testcase1@29ee9faa]" name="beforetest" is-config="true" duration-ms="11367" started-at="2019-03-06T21:41:57Z" finished-at="2019-03-06T21:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="launchtc1()[pri:0, instance:RealPackage.RealProject.Testcase1@29ee9faa]" name="launchtc1" duration-ms="9673" started-at="2019-03-06T21:42:09Z" finished-at="2019-03-06T21:42:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchtc1 -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:RealPackage.RealProject.Testcase1@29ee9faa]" name="aftertest" is-config="true" duration-ms="577" started-at="2019-03-06T21:42:18Z" finished-at="2019-03-06T21:42:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- RealPackage.RealProject.Testcase1 -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="19601" started-at="2019-03-06T16:12:19Z" finished-at="2019-03-06T16:12:39Z">
+      <class name="RealPackage.RealProject.Testcase2">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:RealPackage.RealProject.Testcase2@6093dd95]" name="beforetest" is-config="true" duration-ms="8585" started-at="2019-03-06T21:42:19Z" finished-at="2019-03-06T21:42:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="launchtc2()[pri:0, instance:RealPackage.RealProject.Testcase2@6093dd95]" name="launchtc2" duration-ms="10745" started-at="2019-03-06T21:42:28Z" finished-at="2019-03-06T21:42:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchtc2 -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:RealPackage.RealProject.Testcase2@6093dd95]" name="aftertest" is-config="true" duration-ms="267" started-at="2019-03-06T21:42:39Z" finished-at="2019-03-06T21:42:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- RealPackage.RealProject.Testcase2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

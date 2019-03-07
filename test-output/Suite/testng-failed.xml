@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="RealPackage.RealProject.Listeners"/>
+  </listeners>
+  <test name="Test1(failed)">
+    <classes>
+      <class name="RealPackage.RealProject.Testcase2">
+        <methods>
+          <include name="beforetest"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- RealPackage.RealProject.Testcase2 -->
+      <class name="RealPackage.RealProject.Testcase1">
+        <methods>
+          <include name="launchtc1"/>
+          <include name="beforetest"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- RealPackage.RealProject.Testcase1 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test2(failed)">
+    <classes>
+      <class name="RealPackage.RealProject.Testcase2">
+        <methods>
+          <include name="launchtc2"/>
+          <include name="beforetest"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- RealPackage.RealProject.Testcase2 -->
+      <class name="RealPackage.RealProject.Testcase1">
+        <methods>
+          <include name="beforetest"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- RealPackage.RealProject.Testcase1 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
